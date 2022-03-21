@@ -1,0 +1,163 @@
+h1{
+
+    margin-top: 160px;
+
+    color: darkred;
+
+    text-transform: uppercase;
+
+
+}
+
+
+.container {
+
+    border: 1px solid lightgray;
+
+    background-color: lightgray;
+
+    box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.75);
+
+    border-radius: 10px;
+
+    position: absolute;
+
+    top: 55%;
+
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    width: 450px;
+
+    height: 400px;
+
+}
+
+.keys {
+
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    grid-gap: 10px;
+
+    padding: 10px;
+
+    margin:auto;
+
+}
+
+.button {
+
+    height: 60px;
+
+    padding: 5px;
+
+    border-radius: 8px;
+
+    border: 1px solid gray;
+
+    background-color: gray;
+
+    font-size: 2rem;
+
+    color: white;
+}
+
+.button:hover {
+
+    background-color: violet;
+
+}
+
+.operator {
+
+    border-radius: 8px;
+
+    border-color: lightseagreen;
+
+    color: white;
+
+    font-size: 2rem;
+
+    background-color: lightseagreen;
+
+}
+
+.operator:hover{
+
+    background-color: aquamarine;
+}
+
+.clear {
+
+    background-color: lightcoral;
+
+    border-color: lightcoral;
+
+    border-radius: 8px;
+
+    color: white;
+
+    width: 90px;
+
+    height: 55px;
+
+    padding: 5px;
+
+    margin-left: 130px;
+
+    margin-bottom: 10px;
+
+}
+
+.clear:hover {
+
+    background-color: red;
+
+}
+
+.equal-sign {
+
+    background-color: lightskyblue;
+
+    border-color: lightskyblue;
+
+    color: white;
+
+}
+
+.equal-sign:hover {
+
+    background-color: slateblue;
+
+}
+
+.screen{
+
+    border-radius: 8px;
+
+    background-color:lightcyan;
+
+    justify-content: left;
+
+    color: black;
+
+    font-size: medium;
+
+    width: 50%;
+
+    height: 30%;
+
+    cursor: default;
+
+    padding: 10px; 
+
+    padding-left: 90%;
+
+    margin: auto;
+
+    margin-bottom: 10px;
+
+}
